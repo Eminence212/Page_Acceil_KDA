@@ -710,16 +710,19 @@ li a:hover{
 .hardSkills-head{
     width: 630px;
     height: 41px;
-    padding: 12px 20px;
+    padding:.75rem 1.25rem;
     color: #ffffff;
-    background-color: #d92950;
     border-bottom: 1px silid rgba(18,18,18,0.125);
     font-family: Roboto,sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 24px;
     text-align: left;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #d92950;    
 }
 .hardSkills-head > h1{
     width: 630px;
@@ -798,6 +801,10 @@ li a:hover{
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
 }
 .softSkills-head > h3{
