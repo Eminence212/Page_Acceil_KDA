@@ -1,7 +1,3 @@
-*{
-margin: 0;
-padding: 0;
-}
 @font-face {
     font-family: 'fontello';
     src: url('../fonts/fontello/fontello.eot?26737315');
@@ -24,13 +20,6 @@ padding: 0;
 }
 @font-face {
     font-family: 'Montserratbold';
-    /* src: url('../fonts/MontserratBold/montserrat-bold-webfont.eot');
-    src: url('../fonts/MontserratBold/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MontserratBold/montserrat-bold-webfont.woff2') format('woff2'),
-         url('../fonts/MontserratBold/montserrat-bold-webfont.woff') format('woff'),
-         url('../fonts/MontserratBold/montserrat-bold-webfont.svg#montserratbold') format('svg');
-    font-weight: bold;
-    font-style: normal; */
 
     src: url('../fonts/MontserratBold/montserrat-extrabold-webfont.eot');
     src: url('../fonts/MontserratBold/montserrat-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -148,6 +137,7 @@ li a:hover{
 }
 
 /*Corp de la page*/
+
 /*Section 1*/
 .sectionA{
    width: 100%;
@@ -235,7 +225,7 @@ li a:hover{
 #itemsImage .images{
     width: 50px;
     height: 45px;
-    opacity: 0.4;
+    opacity: 0.7;
 }
 #itemsImage .images:nth-child(1){
     
@@ -1388,5 +1378,508 @@ li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+.conteneurSectionK{
+    width:1170px;
+    height:783px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row-conteneurSection{
+    width: 1200px;
+    height: 783px;
+    margin: 0px -15px;
+}
+.col-conteneurSection{
+    width:1170px;
+    height: 783px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-conteneurSection h2{
+    width: 1170px;
+    height: 57px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color:#ffffff;
+
+}
+.text-centerSectionK{
+
+    width: 1170px;
+    height: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.text-centerSectionK a{
+    color: #d92950;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.col-conteneurSection form{
+    width: 1170px;
+    height: 636px;
+    color: #ffffff;
     
+}
+.row-forms{
+    width:1200px;
+    height: 636px;
+    margin: 0px -15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.col-formElement:nth-child(1){
+  width: 570px;
+  height: 302px;
+  padding: 0px 15px;
+  /* background-color: #f1f0f3; */
+
+}
+.col-formElement:nth-child(2){
+    width: 570px;
+  height: 302px;
+  padding: 0px 15px;
+  /* background-color: #f1f0f3; */
+}
+.col-formElement:nth-child(3){
+    width: 1170px;
+    height: 164px;
+    padding: 0px 15px;
+    /* background-color: #763bec; */
+
+}
+.col-formElement:nth-child(4){
+    width: 1170px;
+    height: 170px;
+    padding: 0px 15px;
+    /* background-color: #dd2020; */
+}
+.col-formElement  label{
+    width: 570px;
+    height: 24px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.col-formElement  div{
+    width: 570px;
+    height: 38px;
+    margin-bottom: 16px;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+
+
+}
+.col-formElement  div > .elementSelect{
+    width: 570px;
+    height: 38px;
+    padding: 6px 28px 6px 12px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    outline: none;
+    vertical-align: middle;
+    background-color: #ffffff;
+    text-transform: none;
+    font-family: inherit;
+    box-sizing: border-box;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    font: 400 13.3333px Arial;
+}
+.col-formElement  div > elementSelect option,
+.col-formElement div > #Typededemande option{
+    padding: 0px 2px 1px 2px;
+    box-sizing: border-box;
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    text-transform: none;
+    font-family: inherit;
+}
+
+.col-formElement  div > .elementWrite{
+    width: 544px;
+    height: 24px;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    outline: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    /* -webkit-writing-mode: horizontal-tb !important; */
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+.col-formElement  div > .elementWrite:focus,
+.col-formElement  div > .elementSelect:focus{
+    outline: none;
+    box-shadow: 0em 0 0.2em  rgba(127, 4, 204, 0.87), 0em 0 0.2em rgba(127, 4, 204, 0.87);
+   
+}
+.col-formElement  div > .elementWrite::placeholder,
+.col-formElement  div > textarea::placeholder{
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    
+}
+
+.col-formElement div > #Typededemande{
+    width: 1170px;
+    height: 38px;
+    padding: 6px 28px 6px 12px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    outline: none;
+    vertical-align: middle;
+    background-color: #ffffff;
+    /* background: #fff url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E) no-repeat right .75rem center/8px 10px; */
+    text-transform: none;
+    font-family: inherit;
+    box-sizing: border-box;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    font: 400 13.3333px Arial;
+}
+.col-formElement div > #Typededemande:focus{
+    outline: none;
+    box-shadow: 0em 0 0.2em  rgba(127, 4, 204, 0.87), 0em 0 0.2em rgba(127, 4, 204, 0.87);
+   
+}
+.col-formElement div > #message{
+    width: 1170px;
+    height: 62px;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    outline: none;
+    vertical-align: middle;
+    background-color: #ffffff;
+    /* background: #fff url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E) no-repeat right .75rem center/8px 10px; */
+    text-transform: none;
+    font-family: inherit;
+    box-sizing: border-box;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    font: 400 13.3333px Arial;
+}
+.col-formElement div > #message:focus{
+    outline: none;
+    box-shadow: 0em 0 0.2em  rgba(127, 4, 204, 0.87), 0em 0 0.2em rgba(127, 4, 204, 0.87);
+   
+}
+.col-formElement > p{
+    width: 1170px;
+    height: 96px;
+    margin-bottom: 16px;
+    font-family: Montserrat,sans-serif;
+    box-sizing: border-box;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:#ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.col-formElement > p a{
+    color: #d92950;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.col-formElement > button{
+    width: 124.47px;
+    height: 58px;
+    padding: 15px 25px;
+    border: 2px solid transparent;
+    /* rgba(111, 74, 134, 0.87); */
+    cursor: pointer;
+    background-color: #d92950;
+    border-radius: 15px;
+    font-weight:700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: inherit;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    font: 400 13.3333px Arial;
+
+}
+.col-formElement > button:hover{
+  
+    border: 2px solid #d92950;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* Footer */
+#footer{
+    width:100% ;
+    height:394px;
+    padding: 160px 0px 96px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #2d2d2d;
+}
+.col-elementFooter{
+    width:570px;
+    height:409px;    
+    padding: 0px 15px;
+    color:#ffffff;
+    font-size: 1.4rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.col-elementFooter > address{
+    width: 570px;
+    height: 231px;
+    margin-bottom: 32px;
+    font-style: normal;
+    line-height: inherit;
+    box-sizing: border-box;
+    color:#ffffff;
+    font-size: 1.4rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.col-elementFooter > address strong{
+    font-weight: bolder;
+    box-sizing: border-box;
+    font-style: normal;
+    line-height: inherit;
+    font-size: 1.4rem;
+    font-family: Roboto,sans-serif;
+    text-align: left;
+}
+.col-elementFooter > div{
+    width: 570px;
+    height: 66px;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    color:#ffffff;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.col-elementFooter > div a{
+    color: #d92950;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-size: 1.4rem;  
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.col-elementFooter > div ul{
+    width: 570px;
+    height: 48px;
+    margin-top: 32px;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.col-elementFooter > div ul>li a{
+    font-size: 2rem;
+    color: #d92950;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+#newsletter-signup > form{
+    width: 570px;
+    height: 74px;
+    box-sizing: border-box;
+    display: flex;
+}
+#newsletter-signup input[type=email]{
+   width: 408.219px;
+   height: 58px;
+   padding: 6px 12px;
+   border: 1px solid transparent;
+   position: relative;
+   -webkit-box-flex: 1;
+   flex: 1 1 auto;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: rgb(73, 80, 87);
+   background-color: rgb(255, 255, 255);
+   background-clip: padding-box;
+   font-family: inherit;
+   box-sizing: border-box;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+#newsletter-signup input[type=email]::placeholder{
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+#newsletter-signup input[type=email]:focus{
+    outline: none;
+    box-shadow: 0em 0 0.2em  rgba(127, 4, 204, 0.87), 0em 0 0.2em rgba(127, 4, 204, 0.87);
+   
+}
+#newsletter-signup button{
+    width:136.78px;
+    height:58px;
+    padding: 15px 25px;
+    margin-left: -1px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    position:relative;
+    z-index:2;
+    background-color: #d92950;
+    color: #ffffff;
+    border-radius: 0px 15px 15px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#newsletter-signup button:hover{
+    border: 2px solid transparent;
+    background-color: transparent; 
+}
+.col-elementFooter h6{
+
+    width: 570px;
+    height: 19px;
+    margin: 226px 8px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+   
+    
+}
+.col-elementFooter h6 > a{
+ color: #ffffff;
+ text-decoration: none;
 }
