@@ -53,11 +53,16 @@
     font-weight: normal;
     font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     height: 100%;
     margin: 0;
-    font-family: Roboto,sans-serif;
+    overflow-x: hidden;
 }
+
 /*En tête de la page*/
 #entete{
     height: 80px;
@@ -177,30 +182,26 @@ li a:hover{
   text-decoration: none;
   color:#d92950;
   background-color: #ffffff;
-  width: 197px;
+  width: 220px;
   height: 30px;
   padding: 15px 25px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
   margin: 15px;
-  border: solid #d92950;
+  border:1px solid #d92950;
  border-radius: 15px;
  text-align: center;
 
 }
 .btns:hover{
-    text-decoration: none;
+   
     color:white;
     background-color:transparent;
-    width: 197px;
-    height: 30px;
-    padding: 15px 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 15px;
-    border: solid #ffffff;
-   border-radius: 15px;
-   text-align: center;
+    border: 2px solid #ffffff;
   }
   #paragrapheSection{
     color: #ffffff;
@@ -314,7 +315,9 @@ li a:hover{
     height: 144px;
     margin-bottom: 3.125rem;
     font-family: Montserrat,sans-serif;
-    font-size: 2.5rem;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
     margin-top: 0;
 }
 .imgItemesservices h5{
@@ -417,7 +420,7 @@ li a:hover{
 }
 .itemSectionD{
     width: 570px;
-    height: 287px;
+    height: 250px;
     margin: 0px 15px;
     padding: 20px;
     background-color: #ffffff;
@@ -442,8 +445,9 @@ li a:hover{
     height: 33px;
     margin-bottom: 12px;
     font-family: Montserrat,sans-serif;
-    font-size: 1.75rem;
-    font-weight:bold;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24px;
     text-align: center;
 }
 .carBody p{
@@ -849,13 +853,13 @@ li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   
     list-style-type: decimal;
     margin-block-start: 1.5em;
     margin-block-end: 1em;
 }
 .softSkillsBody-element ol>li{
     margin-bottom: 25px;
+    
 }
 
 
@@ -1071,9 +1075,10 @@ li a:hover{
     color: #424345;
     text-align: left;
     font-family: Montserratbold,sans-serif;
+    font-style: normal;
     font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 1.2;
+    font-size: 40px;
+    line-height:48px;
 }
 .elementSectionH h1>span{
     color: #d92950;
@@ -1114,7 +1119,7 @@ li a:hover{
 .lineElementSectionH{
     width:270px;
     height:324px; 
-    padding: 0px 15px;
+    padding: 0px 10px;
     color: #424345;
     /* border-radius: 15px; */
     /* background-color: #ffffff; */
@@ -1126,8 +1131,8 @@ li a:hover{
 }
 .lineElementSectionH div{
     width:230px;
-    height:260px; 
-    padding: 20px;
+    height:250px; 
+    padding: 15px;
     margin-bottom: 24px;
     border-radius: 20px;
     background-color: #ffffff;
@@ -1142,23 +1147,24 @@ li a:hover{
 }
 .lineElementSectionH div >h3{
     width: 230px;
-    height: 56px;
-    margin-bottom: 8px;
-    font-size: 1.5rem;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 24px;
     color: #424345;
     font-family: Montserratbold,sans-serif;
     font-weight: 700;
-    line-height: 1.2;
+    line-height:29px;
 }
 .lineElementSectionH div >p{
     width: 230px;
     height: 48px;
+    margin-top: 10px;
     margin-bottom: 1rem;
     color: #424345;
     font-family: Montserrat,sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 24px;
     text-align: left;
 }
 
@@ -1535,7 +1541,7 @@ li a:hover{
     -webkit-rtl-ordering: logical;
     font: 400 13.3333px Arial;
 }
-.col-formElement  div > elementSelect option,
+.col-formElement  div > .elementSelect option,
 .col-formElement div > #Typededemande option{
     padding: 0px 2px 1px 2px;
     box-sizing: border-box;
@@ -1863,6 +1869,7 @@ li a:hover{
     background-color: #d92950;
     color: #ffffff;
     border-radius: 0px 15px 15px 0px;
+    font-family: Roboto,sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -1873,13 +1880,14 @@ li a:hover{
 }
 #newsletter-signup button:hover{
     border: 2px solid transparent;
-    background-color: transparent; 
+    background-color: transparent;
+    color:#572732;
 }
 .col-elementFooter h6{
 
     width: 570px;
     height: 19px;
-    margin: 226px 8px;
+    margin: 250px 8px 200px 8px;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -1891,7 +1899,43 @@ li a:hover{
  color: #ffffff;
  text-decoration: none;
 }
+.social-links{
+    width: 570px;
+    height: 48px;
+    margin: 32px 0px 0px 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.social-links li {
+    width: 16.5px;
+    height: 48px;
+    margin: 0px 36px 0px 0px;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+    color: hsla(0,0%,100%,.87);
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.social-links li a{
+    color: #d92950;
+    font-size: 1.9rem;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: left;
 
+}
 
 /* Page emplois */
 
@@ -1904,22 +1948,19 @@ li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-   
 }
-.titreSectionJobs{
+ .titreSectionJobs{
     width:1170px;
     height:56px;
-    padding: 0px 15px;
-    margin: 48px 57px 0px 57px; 
-    
+    padding: 100px 15px 0px;
+    margin: 15px 57px 0px 57px; 
 }
 .titreSectionJobs > h1 {
     width:1170px;
     height:48px;
     margin: 0px 0px 8px 0px; 
     color:#111;
-    font-family: Montserratbold,sans-serif;
+    font-family: Montserrat,sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 1.2;
@@ -1927,18 +1968,19 @@ li a:hover{
 }
 .jobwItems{
     width:1170px;
-    height: 520px;
-    padding: 100px 15px;
+    height: 524px;
+    padding: 15px 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
+
 .jobwItems > .cars-items{
     width: 345px;
     height: 200px;
-    padding: 12px;
+    padding: 15px;
     margin: 0px 0px 32px 0px;
     background-color:#f2eff3;
     border-radius: 10px;
@@ -1955,6 +1997,7 @@ li a:hover{
     font-weight: 700;
     text-align: left;
 }
+
 .cars-items > p{
     width: 306px;
     height: 24px;
@@ -1966,12 +2009,15 @@ li a:hover{
     line-height: 1.5;
     text-align: left;
 }
+
 .cars-items > a{
     width: 306px;
     height: 24px;
     color: #d92950;
+    font-family: Roboto,sans-serif;
     font-weight: 700;
     text-decoration: none;
     background-color: transparent;
     font-size: 1rem;
-}
+    line-height: 24px;
+} 
