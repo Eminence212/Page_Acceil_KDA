@@ -1,0 +1,218 @@
+/* Footer */
+#footer{
+    width:100% ;
+    height:394px;
+    padding: 160px 0px 96px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #2d2d2d;
+}
+.col-elementFooter{
+    width:570px;
+    height:409px;    
+    padding: 0px 15px;
+    color:#ffffff;
+    font-size: 1.4rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.col-elementFooter > address{
+    width: 570px;
+    height: 231px;
+    margin-bottom: 32px;
+    font-style: normal;
+    line-height: inherit;
+    box-sizing: border-box;
+    color:#ffffff;
+    font-size: 1.4rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.col-elementFooter > address strong{
+    font-weight: bolder;
+    box-sizing: border-box;
+    font-style: normal;
+    line-height: inherit;
+    font-size: 1.4rem;
+    font-family: Roboto,sans-serif;
+    text-align: left;
+}
+.col-elementFooter > div{
+    width: 570px;
+    height: 66px;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    color:#ffffff;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.col-elementFooter > div a{
+    color: #d92950;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-size: 1.4rem;  
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.col-elementFooter > div ul{
+    width: 570px;
+    height: 48px;
+    margin-top: 32px;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.col-elementFooter > div ul>li a{
+    font-size: 2rem;
+    color: #d92950;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+#newsletter-signup > form{
+    width: 570px;
+    height: 74px;
+    box-sizing: border-box;
+    display: flex;
+}
+#newsletter-signup input[type=email]{
+   width: 408.219px;
+   height: 58px;
+   padding: 6px 12px;
+   border: 1px solid transparent;
+   position: relative;
+   -webkit-box-flex: 1;
+   flex: 1 1 auto;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: rgb(73, 80, 87);
+   background-color: rgb(255, 255, 255);
+   background-clip: padding-box;
+   font-family: inherit;
+   box-sizing: border-box;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+#newsletter-signup input[type=email]::placeholder{
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+#newsletter-signup input[type=email]:focus{
+    outline: none;
+    box-shadow: 0em 0 0.2em  rgba(127, 4, 204, 0.87), 0em 0 0.2em rgba(127, 4, 204, 0.87);
+   
+}
+#newsletter-signup button{
+    width:136.78px;
+    height:58px;
+    padding: 15px 25px;
+    margin-left: -1px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    position:relative;
+    z-index:2;
+    background-color: #d92950;
+    color: #ffffff;
+    border-radius: 0px 15px 15px 0px;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#newsletter-signup button:hover{
+    border: 2px solid transparent;
+    background-color: transparent;
+    color:#572732;
+}
+.col-elementFooter h6{
+
+    width: 570px;
+    height: 19px;
+    margin: 250px 8px 200px 8px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+   
+    
+}
+.col-elementFooter h6 > a{
+ color: #ffffff;
+ text-decoration: none;
+}
+.social-links{
+    width: 570px;
+    height: 48px;
+    margin: 32px 0px 0px 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.social-links li {
+    width: 16.5px;
+    height: 48px;
+    margin: 0px 36px 0px 0px;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+    color: hsla(0,0%,100%,.87);
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.social-links li a{
+    color: #d92950;
+    font-size: 1.9rem;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: left;
+
+}

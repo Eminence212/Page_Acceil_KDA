@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/entete-page.css">
+    <link rel="stylesheet" href="../css/section-11.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/section-jobs.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <title>Kinshasa Digital Recrute | Kinshasa Digital</title>
 </head>
@@ -28,19 +34,21 @@
                 <ul>
                    
                     <li>
-                         <a href="../index.html" class="actve">Accueil</a>
-                    </li>
-
+                         <a class="active" href="../index.html" >Accueil</a>
+                        
+                  </li>
                     <li>
                           <a href="#">Academy</a>
+            
                     </li>
 
                     <li>
-                         <a href="kinshasa-digital-recrute.html">Emplois</a>
-                    </li>
+                         <a href="pages/kinshasa-digital-recrute.html">Emplois</a>
+                     </li>
 
                     <li>
                           <a href="#sectionK">Contact</a>
+    
                     </li>
                 </ul>
             </div>
@@ -102,10 +110,10 @@
                         <!-- formulaire 1 -->
                         <div class="col-formElement">
 
-                                <label for="title">Quel titre vous décrit le mieux ?</label>
-                                <div class="title">
-                                    <select class="elementSelect"  placeholder="Quel titre vous décrit le mieux ?" required>
-                                    <option value="#"></option>
+                                <label>Quel titre vous décrit le mieux ?</label>
+                                <div  class="title">
+                                    <select class="elementSelect" required>
+                                    <option label=" "></option>
                                     <option value="consultant">Consultant</option>
                                     <option value="entrepreneur">Entrepreneur</option>
                                     <option value="etudiant">Etudiant</option>
@@ -127,10 +135,10 @@
                             <!-- formulaire 2 -->
                         <div class="col-formElement">
 
-                            <label for="activite">Secteur d'activité</label>
-                            <div class="activite">
-                                <select class="elementSelect" placeholder="Quel titre vous décrit le mieux ?" required>
-                                    <option value="#"></option>
+                            <label>Secteur d'activité</label>
+                            <div id="activite" class="activite">
+                                <select class="elementSelect" required>
+                                    <option label=" "></option>
                                     <option value="Agriculture et foresterie">Agriculture et foresterie</option>
                                     <option value="Aéroport">Aéroport</option>
                                     <option value="Construction">Construction</option>
@@ -162,10 +170,10 @@
                        <!-- formulaire 3 -->
                         <div class="col-formElement">
 
-                            <label for="Typededemande">Type de demande</label>
+                            <label>Type de demande</label>
                             <div class="Typededemande">
-                                <select id="Typededemande"  placeholder="Quel titre vous décrit le mieux ?" required>
-                                    <option value="#"></option>
+                                <select id="Typededemande" required>
+                                    <option label=" "></option>
                                     <option value="site_web">Développement: Site Internet</option>
                                     <option value="app_mobile">Développement: Application mobile</option>
                                     <option value="app_gestion">Développement: Application de Gestion</option>
@@ -180,7 +188,7 @@
                                 </select> 
                             </div>
                             <div class="message">
-                                <textarea id="message" placeholder="Demande : merci d'indiquer le maximum de précision afin qu'on puisse vous donner une réponse complète" required="required"  required></textarea> 
+                                <textarea id="message" placeholder="Demande : merci d'indiquer le maximum de précision afin qu'on puisse vous donner une réponse complète"  required></textarea> 
                             </div>
 
                         </div>
@@ -209,7 +217,6 @@
 </section>
 
 <!-- Footer-->
-
 <footer id="footer">
 
 
@@ -229,16 +236,19 @@
                 <li>
                     <a href="https://www.facebook.com/KinshasaDigital/">
                         <i class="fab fa-facebook-f"></i>
+                       
                     </a>
                 </li> 
                 <li>
                     <a  href="https://twitter.com/kinshasadigital">
                         <i class="fab fa-twitter"></i>
+                      
                     </a>
                 </li> 
                 <li>
                     <a  href="https://fr.linkedin.com/company/kinshasa-digital">
                         <i class="fab fa-linkedin"></i>
+                      
                     </a>
                 </li>
             </ul>
@@ -253,11 +263,10 @@
                     <div ><button>S'inscrire</button></div>
                 </form>
             </div> 
-            <h6 class="mt-auto "><a href="/mentions-legales" class="text-white">Mentions Légales</a></h6>
+            <h6 class="mt-auto "><a href="#" class="text-white">Mentions Légales</a></h6>
         </div>
 
-    <!-- </div>
-    </div> -->
+   
 </footer>
 
 </body>

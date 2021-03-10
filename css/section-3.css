@@ -1,0 +1,60 @@
+/*Section 3*/
+#sectionC{
+    width: 100%; 
+    height: 340px;
+    padding: 100px 0px;
+    background-color: #d92950;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sectionC h1{
+    width: 1170px;
+    height: 48px;
+    margin: 0px 0px 50px;
+    color:#ffffff;
+    font-family: Montserratbold,sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.sliderSectionC{
+    overflow: hidden;
+    height: 200px;
+    width:1000px;
+}
+.imagesSectionC{
+    width: 2000px;
+    height: 200px;
+    animation: slideSectionC 10s ease infinite;
+    
+}
+@keyframes slideSectionC {
+    10% {margin-left: 0px;}
+
+    20% {margin-left: -200px;}
+    30% {margin-left: -200px;}
+
+    40% {margin-left: -400px;}
+    50% {margin-left: -400px;}
+
+    60% {margin-left: -600px;}
+    70% {margin-left: -600px;}
+
+    80% {margin-left: -800px;}
+    90% {margin-left: -800px;}
+
+    100%{margin-left: -1000px;}
+
+  }
+.contenSlideSectionC{
+    float: left;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items:center;
+    
+}

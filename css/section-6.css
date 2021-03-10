@@ -1,0 +1,220 @@
+/*Section 6*/
+#sectionF{
+    width: 100%;
+    height: 596px;
+    padding: 100px 0px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notreExpertise{
+    width: 1200px;
+    height: 98px;
+    padding: 0px 15px;
+}
+.notreExpertise h1{
+    width: 1170px;
+    height: 48;
+    margin-bottom: 50px;
+    color: #424345;
+    font-family: Montserratbold,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.hardSoftSkills{
+    width: 1200px;
+    height: 498px;
+    margin: 0px -15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color:#424345;
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    text-size-adjust: 100%;
+}
+.hardSkills{
+    width: 670px;
+    height: 450px;
+    padding: 0px 15px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.softSkills{
+    width: 470px;
+    height: 450px;
+    padding: 0px 15px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.hardSkills-head{
+    width: 630px;
+    height: 41px;
+    padding:.75rem 1.25rem;
+    color: #ffffff;
+    border-bottom: 1px silid rgba(18,18,18,0.125);
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #d92950;    
+}
+.hardSkills-head > h1{
+    width: 630px;
+    height: 33px;
+    margin-bottom: 8px;
+    font-family: Montserratbold,sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.hardSkills-body{
+    width:630px ;
+    height:304px;
+    padding: 12px 20px;
+    background-color: #f1f0f3;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    color: #424345;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.hardSkills-element{
+    width: 125px;
+    height: 92px;
+    padding: 0px 15px;
+    text-align: center;
+    color:#424345;
+    font-size: 1rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+ 
+}
+.hardSkills-element svg{
+    width: 45px;
+    height: 45px;
+    transform: rotate(360deg);
+}
+.hardSkills-element p{
+    width: 125px;
+    height: 31px;
+    margin-bottom: 1rem;
+    margin-top: 0px;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu Mono',monospace;
+    text-align: center;
+}
+.softSkills{
+    width: 470px;
+    height: 498px;
+    padding: 0px 15px;
+    /* background-color: #f1f0f3; */
+    border-radius: 0px 0px 20px 20px;
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#424345;
+}
+.softSkills-head{
+    width: 430px;
+    height: 41px;
+    padding:.75rem 1.25rem;
+    color: #ffffff;
+    background-color: rgba(24,0,39,.87);
+    border-bottom: 1px silid rgba(18,18,18,0.125);
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.softSkills-head > h3{
+    width: 430px;
+    height: 33px;
+    font-family: Montserratbold,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+}
+.softSkills-body{
+    width: 470px;
+    height: 384px;
+    margin-top: 0px;
+    background-color: #f1f0f3;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.softSkillsBody-element{
+    width: 350px;
+    height: 264px;
+    padding: 20px;
+    margin: 40px;
+    color: #424345;
+    background-color: #dfdee1;
+    border-radius: 10px;
+}
+.softSkillsBody-element ol{
+    width: 270px;
+    height: 186px;
+    padding:0px 0px 0px 40px;
+    margin: 0px 0px 20px 0px;
+    box-sizing: border-box;
+    display: block;
+    list-style-type: decimal;
+    color: #424345;
+    font-size: 1.5rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5;
+}
+.softSkillsBody-element ol li{
+    width: 270px;
+    height: 31px; 
+    font-size: 1.3rem;
+    font-family: 'Ubuntu Mono',monospace;    
+    display: list-item;
+    text-align: -webkit-match-parent;
+    color: #424345;
+    font-weight: 400;
+    line-height: 1.5;
+}

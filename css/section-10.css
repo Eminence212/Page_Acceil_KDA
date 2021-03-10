@@ -1,0 +1,117 @@
+
+/* Section 10 */
+#sectionJ{
+    width:100%;
+    height:888.750px;
+    padding: 100px 0px;
+    color: #424345;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;    
+}
+.conteneurSectionJ{
+    width: 1170px;
+    height: 888.750px;
+    padding: 0px 15px;
+    margin: 0px 42px;
+    color: #424345;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.titreSectionJ{
+    width:1200px;
+    height:98px;
+    margin:0px -15px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; 
+}
+.col-titreSectionJ{
+    width:1170px ;
+    height:98px ;
+    padding:0px 15px;  
+}
+.col-titreSectionJ >h1{
+    width: 1170px; ;
+    height: 48px;
+    margin-bottom: 50px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-align: center;
+    color: #424345;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center; 
+}
+.corpSectionJ-un{
+    width:1200px;
+    height:296.75px;
+    margin: 0px -15px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center; 
+
+}
+.col-elementCorpSectionJ{
+    width:270px;
+    height:272.75px;
+    padding: 0px 15px;
+    /* margin: 0px 24px; */
+    color: #424345;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; 
+
+}
+.col-elementCorpSectionJ > img{
+    width:270px ;
+    height:168.75px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.col-elementCorpSectionJ > p{
+    width:270px ;
+    height:72px;
+    margin: 16px 0px;
+    font-family: Montserrat,sans-serif;
+    color: #424345;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.corpSectionJ-deux{
+    width:1200px;
+    height:493px;
+    margin: 0px -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.col-corpSectionJ-deux{
+    width: 270px;
+    height: 493px;
+    padding: 0px 15px;
+
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 0.6s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+}

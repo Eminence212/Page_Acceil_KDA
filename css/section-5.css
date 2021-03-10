@@ -1,0 +1,165 @@
+/*Section 5*/
+#sectionE{
+    width: 100%; 
+    height: 648.500px;
+    padding: 100px 0px;
+    background-color: #d92950;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sectionE h1{
+    width: 1170px;
+    height: 48px;
+    font-family: Montserratbold,sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 50px;
+    color:#ffffff;
+    text-align: center;
+}
+.conteneuerSliderE{
+    width: 8190px;
+    height:502.5px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btnPrecedentSuivant{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #d92950;
+    background-color: #ffffff;
+    font-family: fontello,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #d92950;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.61;
+}
+.btnPrecedentSuivant:hover{
+    opacity: 1;
+}
+.sliderSectionE{
+    overflow: hidden;
+    width: 1170px;
+    height: 502.5px;
+}
+#imgSectionE{
+    width: calc(390px*6);
+    height: 502.5px;
+    animation: slide 10s ease infinite;
+   }
+  @keyframes slide {
+    10% {margin-left: 0px;}
+
+    30% {margin-left: -390px;}
+    40% {margin-left: -390px;}
+
+    60% {margin-left: -780px;}
+    70% {margin-left: -780px;}
+
+    90% {margin-left: -1170px;}
+    100% {margin-left: -1170px;}
+  }
+  
+.cadreImg-SectionE{
+    width: 330px;
+    height: 502.5px;
+    margin: 0px 30px;
+    float: left;
+}
+.cadreImg-SectionE img{
+    width: 330px;
+    height: 422.5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.cadreImgFooter{
+    width: 300px;
+    height: 74px;
+    padding: 10px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cadreImgFooter-haut{
+    width: 330px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cadreImgFooter-bas{
+    width: 320px;
+    height: 16px;
+    padding: 5px;
+    margin-top: 16px;
+   font-family: 'Ubuntu Mono',monospace;
+   color:#ffffff;
+   font-size: 11px;
+   line-height: 17px;
+   font-weight: 400;
+    background-color: #ed0058;
+}
+.cadreImgFooter-haut p{
+    width: 170.359px;
+    height: 16px;
+    font-family: Montserrat,sans-serif;
+    font-size: .7rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.5;
+}
+.cadreImgFooter-haut a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.badge{
+    width: 68.734px;
+    height: 20px;
+    font-family: Roboto,sans-serif;
+    background-color: #ffffff;
+    -webkit-box-align: center;
+    text-align: left;
+    border-radius: 20px 3px 3px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.badge svg {
+    width: 20px;
+    height: 20px;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+
+}
+.client-badge {
+    width: 14.469px;
+    height: 11px;
+    padding: 3px 10px 3px 17px;
+    color: #d92950;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: .7rem;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 700;
+    line-height: 1;
+
+}
+.cadreImgFooter-bas svg{
+    margin-left: 2px; 
+}
