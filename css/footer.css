@@ -74,11 +74,6 @@
     list-style: none;
     padding: 0;
     box-sizing: border-box;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -121,7 +116,6 @@
     text-indent: 0px;
     text-shadow: none;
     text-align: start;
-    appearance: textfield;
     cursor: text;
     font: 400 13.3333px Arial;
 }

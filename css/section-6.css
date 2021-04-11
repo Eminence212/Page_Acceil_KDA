@@ -15,7 +15,7 @@
 }
 .notreExpertise h1{
     width: 1170px;
-    height: 48;
+    height: 48px;
     margin-bottom: 50px;
     color: #424345;
     font-family: Montserratbold,sans-serif;
@@ -68,7 +68,7 @@
     height: 41px;
     padding:.75rem 1.25rem;
     color: #ffffff;
-    border-bottom: 1px silid rgba(18,18,18,0.125);
+    border-bottom: 1px rgba(18,18,18,0.125);
     font-family: Roboto,sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -151,7 +151,7 @@
     padding:.75rem 1.25rem;
     color: #ffffff;
     background-color: rgba(24,0,39,.87);
-    border-bottom: 1px silid rgba(18,18,18,0.125);
+    border-bottom: 1px rgba(18,18,18,0.125);
     font-family: Roboto,sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -213,8 +213,8 @@
     font-size: 1.3rem;
     font-family: 'Ubuntu Mono',monospace;    
     display: list-item;
-    text-align: -webkit-match-parent;
     color: #424345;
     font-weight: 400;
     line-height: 1.5;
+    padding-bottom: 25px;
 }
